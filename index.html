@@ -42,6 +42,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/structure.css" />
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/event4.css" />
     <link rel="stylesheet" href="css/custom.css" />
 
@@ -371,11 +372,12 @@
         <div class="content_wrapper clearfix">
           <div class="sections_group">
             <div class="entry-content">
+
               <!-- what we do section -->
               <div class="section wwd-section mcb-section-tb22eyqgd">
                 <div class="section_wrapper mcb-section-inner">
                   <div
-                    class="wrap wwd-front mcb-wrap mcb-wrap-25m61fy76 one valign-top bg-cover clearfix"
+                    class="wrap wwd-front mcb-wrap mcb-wrap-25m61fy76 one valign-top bg-cover clearfix wow fadeInLeft"
                     style="background-image:url('./images/what-we-do-front.png');background-repeat:no-repeat;background-size:auto;background-position-y: 75px;"
                   >
                     <div class="mcb-wrap-inner">
@@ -390,7 +392,7 @@
                         class="column mcb-column mcb-item-en293zk09 three-fifth column_column"
                       >
                         <div class="column_attr clearfix">
-                          <div class="wwd-heading-wrapper">
+                          <div class="wwd-heading-wrapper wow fadeInRight">
                           <h6 class="smaller-text text-black">WHAT WE DO</h6>
                           <h2 class="wwd-heading">
                             NEQUEPO
@@ -402,7 +404,7 @@
                         </div>
                           <!-- <hr class="no_line" style="margin: 0 auto 70px;"> -->
                           <div
-                            class="hover_color align_left"
+                            class="hover_color align_left "
                             style="background-color:#f59442;"
                             ontouchstart="this.classList.toggle( 'hover');"
                           >
@@ -460,7 +462,7 @@
                 <div class="section_wrapper mcb-section-inner">
                   <div class="mcb-wrap-inner">
                     <div
-                      class="wrap mcb-wrap mcb-wrap-j05kud3xb one-second valign-top clearfix left"
+                      class="wrap mcb-wrap mcb-wrap-j05kud3xb one-second valign-top clearfix left wow fadeInUp"
                     >
                       <div class="heading-container">
                         <h6>SMALL TITILE TEXT HERE</h6>
@@ -534,11 +536,11 @@
                     <div
                       class="wrap mcb-wrap mcb-wrap-j05kud3xb one-second valign-top clearfix right"
                     >
-                      <div class="heading-container">
+                      <div class="heading-container wow fadeInUp">
                         <h6>SMALL TITILE TEXT HERE</h6>
                         <h2>PUBLICATIONS</h2>
                       </div>
-                      <div class="publication-content-wrapper">
+                      <div class="publication-content-wrapper wow fadeInRight">
                         <img src="./images/publication.png" alt="" />
                         <div class="publication-content">
                           <img
@@ -565,10 +567,10 @@
                     <div
                       class="wrap mcb-wrap mcb-wrap-j05kud3xb one valign-top clearfix"
                     >
-                      <div class="newsletter-content-wrapper">
+                      <div class="newsletter-content-wrapper wow fadeInUp">
                         <img src="./images/email-icon.png" alt="">
                         <p><span>STAY UP TO DATE WITH NEWS</span><span>AND JOIN THE FREE NEWSLETTER</span></p>
-                        <div class="input-group">
+                        <div class="input-group wow fadeInDown" >
                           <input type="text" class="form-control" placeholder="Your e-mail">
                           <div class="input-group-append">
                             <button class="btn" type="button">subscribe</button>
@@ -671,7 +673,7 @@
                       <div
                         class="column mcb-column mcb-item-x3o3c2wtw one column_column column-margin-20px"
                       >
-                        <div class="column_attr clearfix">
+                        <div class="column_attr clearfix wow fadeInUp">
                           <h6>SMALL TITLE TEXT HERE</h6>
                           <h2 class="contact-heading">CONTACT</h2>
                         </div>
@@ -679,7 +681,7 @@
                       <div
                         class="column mcb-column mcb-item-mlkrmk71h one-second column_column"
                       >
-                        <div class="footer-menu">
+                        <div class="footer-menu wow fadeInDown">
                             <ul>
                               <li><a href="">Home</a></li>
                               <li><a href="">About</a></li>
@@ -701,7 +703,7 @@
                         <div
                           class="image_frame image_item no_link scale-with-grid no_border"
                         >
-                          <div class="image_wrapper">
+                          <div class="image_wrapper wow fadeInUp">
                             <img
                               class="scale-with-grid"
                               src="./images/logo.png"
@@ -717,7 +719,7 @@
                       <div
                         class="column mcb-column mcb-item-h2jqjrsh7 one column_column"
                       >
-                        <div class="column_attr clearfix" style>
+                        <div class="column_attr clearfix wow fadeInUp">
                           <div class="social-icons">
                             <a class="fb-icon" href="#"><i class="fa fa-icon-facebook"></i></a
                             ><a class="tw-icon" href="#"
@@ -766,7 +768,7 @@
 
     <!-- JS -->
     <script src="js/jquery-2.1.4.min.js"></script>
-
+    <script src="js/wow.js"></script>
     <script src="js/mfn.menu.js"></script>
     <script src="js/jquery.plugins.js"></script>
     <script src="js/jquery.jplayer.min.js"></script>
@@ -829,5 +831,8 @@
         }
       })();
     </script>
+    <script>
+      new WOW().init();
+      </script>
   </body>
 </html>

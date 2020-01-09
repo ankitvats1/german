@@ -612,4 +612,7 @@
   .newsletter-content-wrapper .input-group .btn {
     height: 40px;
   }
+  #pp_full_res {
+    text-align: center;
+  }
 }
