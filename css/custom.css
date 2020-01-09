@@ -173,7 +173,7 @@
   font-weight: 700;
   line-height: 68px;
 }
-.green-box .hover_color_wrapper .bold-text span {
+.green-box .hover_color_wrapper .bold-text span.count-small {
   font-family: Barlow Semi Condensed;
   font-size: 40px;
   font-weight: 300;
