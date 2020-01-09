@@ -1182,11 +1182,11 @@ a:hover {
 	color: #c90000;
 }
 *::-moz-selection {
-	background-color: #fb0303;
+	background-color: #1d8038;
 	color: white;
 }
 *::selection {
-	background-color: #fb0303;
+	background-color: #1d8038;
 	color: white;
 }
 .blockquote p.author span, .counter .desc_wrapper .title, .article_box .desc_wrapper p, .team .desc_wrapper p.subtitle, .pricing-box .plan-header p.subtitle, .pricing-box .plan-header .price sup.period, .chart_box p, .fancy_heading .inside, .fancy_heading_line .slogan, .post-meta, .post-meta a, .post-footer, .post-footer a span.label, .pager .pages a, .button-love a .label, .pager-single a, #comments .commentlist>li .comment-author .says, .fixed-nav .desc .date, .filters_buttons li.label, .Recent_posts ul li a .desc .date, .widget_recent_entries ul li .post-date, .tp_recent_tweets .twitter_time, .widget_price_filter .price_label, .shop-filters .woocommerce-result-count, .woocommerce ul.product_list_widget li .quantity, .widget_shopping_cart ul.product_list_widget li dl, .product_meta .posted_in, .woocommerce .shop_table .product-name .variation>dd, .shipping-calculator-button:after, .shop_slider .shop_slider_ul li .item_wrapper .price del, .testimonials_slider .testimonials_slider_ul li .author span, .testimonials_slider .testimonials_slider_ul li .author span a, .Latest_news ul li .desc_footer, .share-simple-wrapper .icons a {
